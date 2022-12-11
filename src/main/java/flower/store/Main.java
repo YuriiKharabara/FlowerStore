@@ -1,6 +1,5 @@
 package flower.store;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -76,16 +75,16 @@ public class Main {
         System.out.println("Hi, we have these flowers:");
         int intend = 0;
         for (Flower flower : flowers) {
-            if(flower.getName_() == "Rose"){
+            if(flower.getName() == "Rose"){
                 intend = 7;
-            }else if(flower.getName_() == "Tulip"){
+            }else if(flower.getName() == "Tulip"){
                 intend = 6;
-            }else if(flower.getName_() == "Chamomile"){
+            }else if(flower.getName() == "Chamomile"){
                 intend = 2;
-            }else if(flower.getName_() == "Flower"){
+            }else if(flower.getName() == "Flower"){
                 intend = 5;
             }
-            System.out.println(flower.getName_() + " ".repeat(intend) + flower.getColor() + " " + flower.getSepalLength() + " " + flower.getPrice());
+            System.out.println(flower.getName() + " ".repeat(intend) + flower.getColor() + " " + flower.getSepalLength() + " " + flower.getPrice());
         }
         return store;
     }

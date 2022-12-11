@@ -16,7 +16,7 @@ public class Store {
 
     public boolean CheckFlowers(String wantedflower) {
         for (Flower flower : flowers_) {
-            if(flower.getName_()==wantedflower) {
+            if(flower.getName()==wantedflower) {
                 return true;
             }
         }
@@ -29,7 +29,7 @@ public class Store {
 
     public void sell(String flower) {
         for (int i = 0; i < flowers_.size(); i++) {
-            if (flowers_.get(i).getName_().equals(flower)) {
+            if (flowers_.get(i).getName().equals(flower)) {
                 flowers_.remove(i);
                 break;
             }
@@ -40,7 +40,7 @@ public class Store {
         int count = 0;
         for (int j = 0; j < wantedFlowers.size(); j++) {
             for (int i = 0; i < flowers_.size(); i++) {
-                if (flowers_.get(i).getName_().equals(wantedFlowers.get(j))) {
+                if (flowers_.get(i).getName().equals(wantedFlowers.get(j))) {
                     count++;
                     break;
                 }
@@ -101,7 +101,7 @@ public class Store {
         String result = "That's bucket, we can propose you: ";
         for (int i = 0; i < bucket.getFlowers_().size(); i++) {
 
-            result += bucket.getFlowers_().get(i).getName_() + ", ";
+            result += bucket.getFlowers_().get(i).getName() + ", ";
         }
         result = result.substring(0, result.length() - 2);
         if(result.equals("That's bucket, we can propose you")){
