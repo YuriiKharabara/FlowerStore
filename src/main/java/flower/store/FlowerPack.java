@@ -1,17 +1,24 @@
 package flower.store;
 
 public class FlowerPack {
-    private int price = 0;
+    private int price_ = 0;
+
+    public Flower getFlower_() {
+        return flower_;
+    }
+
+    private Flower flower_;
 
     public int getPrice() {
-        return price;
+        return price_;
     }
 
     public void setPrice(int price) {
-        this.price = price;
+        this.price_ = price;
     }
 
     public FlowerPack(Flower flower, int quantity) {
-        price += flower.getPrice() * quantity;
+        price_ += flower.getPrice() * quantity;
+        this.flower_ = flower;
     }
 }

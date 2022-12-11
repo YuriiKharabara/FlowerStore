@@ -1,10 +1,18 @@
 package flower.store;
 
 public class Flower {
+    private String name_ = "Flower";
     private int sepalLength;
     private String color;
     private int price;
 
+    public String getName_() {
+        return name_;
+    }
+
+    public void setName_(String name) {
+        this.name_ = name;
+    }
     public int getSepalLength() {
         return sepalLength;
     }
