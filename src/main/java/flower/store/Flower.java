@@ -1,52 +1,54 @@
-/*
-FlowerStore
+/**
+ * FlowerStore
  */
-
 package flower.store;
 
 public class Flower {
+    /**
+     * FlowerStore
+     */
     private String name_ = "Flower";
     private int sepalLength;
     private String color;
     private int price;
 
     public String getName() {
-        /*
-        return name;
-        */
+        /**
+         * FlowerStore
+         */
         return name_;
     }
 
     public void setName(String name) {
-        /*
-        set name;
-        */
+        /**
+         * FlowerStore
+         */
         this.name_ = name;
     }
     public int getSepalLength() {
-        /*
-        return Sepal length;
-        */
+        /**
+         * FlowerStore
+         */
         return sepalLength;
     }
 
     public void setSepalLength(int sepalLength) {
-        /*
-        set Sepal length;
+        /**
+         * FlowerStore
          */
         this.sepalLength = sepalLength;
     }
 
     public String getColor() {
-        /*
-        return color;
+        /**
+         * FlowerStore
          */
         return color;
     }
 
     public void setColor(FlowerColor color) {
-        /*
-        set color;
+        /**
+         * FlowerStore
          */
         switch (color) {
             case RED: this.color = "#FF0000"; break;
@@ -61,16 +63,16 @@ public class Flower {
     }
 
     public int getPrice() {
-        /*
-        return price;
+        /**
+         * FlowerStore
          */
 
         return price;
     }
 
     public void setPrice(int price) {
-        /*
-        set price;
+        /**
+         * FlowerStore
          */
         this.price = price;
     }

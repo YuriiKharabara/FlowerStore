@@ -1,5 +1,5 @@
-/*
-Flowerstore
+/**
+ * FlowerStore
  */
 
 
