@@ -1,17 +1,17 @@
-package flower.store;
 /**
  * Some text here.
  */
+package flower.store;
 
 
+/**
+ * Some text here.
+ */
 public class Chamomile extends Flower {
     /**
-   * Chamomile.
+     * Some text here.
      */
     public Chamomile() {
-        /**
-         * Chamomile.
-         */
         super.setName("Chamomile");
     }
 }
