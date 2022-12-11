@@ -1,14 +1,16 @@
-/*
-FlowerStore
+/**
+ * FlowerStore
  */
 package flower.store;
 
 public class Chamomile extends Flower {
-    /*
-    Chamomile
+    /**
+   * Chamomile
      */
     public Chamomile() {
-
+        /*
+        Chamomile
+         */
         super.setName("Chamomile");
     }
 }
