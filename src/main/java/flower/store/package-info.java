@@ -1,5 +1,5 @@
 /**
- * FlowerStore
+ * FlowerStore.
  */
 package flower.store;
 
